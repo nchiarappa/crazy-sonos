@@ -1,12 +1,13 @@
 # Crazy Sonos
 Want to make someone go crazy with their Sonos player? This repo will help you to make it look possessed!
+A project that started when I was testing the SoCo python library.
 
 ## Things you can do
 
 ### set_random_volume_for_random_time()
 Set the volume of the Sonos speaker to a random value for a random amount of time
 
-### set_BOOM_volume_randomly()
+### set_BOOM_volume_for_random_time()
 Set the volume of the Sonos speaker to the max volume you choose for a shorter random amount of time
 
 There are also ```check_playing_status``` that checks if the speaker is reproducing something (if not it restarts the reproduction), ```check_time_to_run``` that allows you to set the maximum script execution time, ```check_initial_status``` that checks if there is reproducing something as soon as the code is run (if not it puts a radio on), and ```take_snapshot``` that is useful to restore a previous backup reproducing session (if someone stops the reproduction while the script is running, see ```check_playing_status``` that uses this).
